@@ -1,0 +1,19 @@
+name = "nila"
+compatibility_date = "2023-01-01"
+
+[vars]
+TG_BOT_TOKEN = ""
+ASSET_BASE_URL=""
+
+[ai]
+binding = "AI" # i.e. available in your Worker on env.AI
+
+[placement]
+mode = "smart"
+
+# R2
+account_id = "" # ← Replace with your Account ID.
+
+[[r2_buckets]]
+binding = 'NILA_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'nila'
